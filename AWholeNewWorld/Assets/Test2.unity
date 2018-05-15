@@ -129,7 +129,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &272537213
 MeshRenderer:
@@ -289,12 +289,12 @@ GameObject:
   - component: {fileID: 466309927}
   - component: {fileID: 466309926}
   - component: {fileID: 466309925}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &466309925
 MeshRenderer:
@@ -438,12 +438,12 @@ GameObject:
   - component: {fileID: 1304465873}
   - component: {fileID: 1304465872}
   - component: {fileID: 1304465871}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &1304465871
 MeshRenderer:
@@ -522,12 +522,12 @@ GameObject:
   - component: {fileID: 1408884733}
   - component: {fileID: 1408884732}
   - component: {fileID: 1408884731}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &1408884731
 MeshRenderer:
@@ -618,7 +618,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1422792650}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.25, z: -0.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1701227459}
@@ -635,10 +635,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c8ef186bc1d12b4e87f319e3b190fed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  multiplier: 0.15
   invisibleMaterial: {fileID: 2100000, guid: cac29dd04bac9604ab34cfd49bccecc2, type: 2}
   refreshRate: 0.1
-  viewRadius: 10
-  viewAngle: 180
+  viewRadius: 5
+  viewAngle: 164
   targetMask:
     serializedVersion: 2
     m_Bits: 256
@@ -662,7 +663,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &1533540598
 MeshRenderer:
